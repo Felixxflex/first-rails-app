@@ -1,20 +1,14 @@
 <nav class="nav global">
 	<div class="container navigation-bar">
 		<div class="logo">
-			<a href="/">Shiv-Flex</a>
+			<img class="img-nav" src='https://res.cloudinary.com/dn6wh4u2h/image/upload/v1600683201/shiv1_his5js.png'/>
 		</div>
 		<div id="mainListDiv" class="main_list">
 			<ul class="navlinks">
 				<li><a href="/about">About</a></li>
 				<li><a href="#">Customers</a></li>
-				<li><a href="#">Services</a></li>
 				<li><%= link_to "Contact" %></li>
-        <% unless user_signed_in?%>
-        <li><a href="/users/sign_up">Sign Up</a></li>
-				<li><a href="/users/sign_up">Sign In</a></li>
-        <%else%>
-        <li><a href="/users/1/">My Account</a></li>
-        <%end%>
+				<li><button id="start-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Testimonials</button></li>
 			</ul>
 		</div>
 		<span class="navTrigger">
