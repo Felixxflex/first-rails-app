@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get "/path/about/page", to: "pages#about", as: "about"
   get "/path/benefits/page", to: "pages#benefits", as: "benefits"
   get "/path/contact/page", to: "pages#contact", as: "contact"
+  get "/path/testimonials/page", to: "pages#testimonials", as: "testimonials"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

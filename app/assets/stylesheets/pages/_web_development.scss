@@ -594,3 +594,9 @@ button.learn-more:active::before {
     box-shadow: 0 0 0 2px #42C2B1, 0 0 #26DAC1;
     transform: translate3d(0, 0, -1em);
 }
+
+@media only screen and (max-width: 480px) {
+    .locorino {
+        width: 5rem;
+    }
+}
