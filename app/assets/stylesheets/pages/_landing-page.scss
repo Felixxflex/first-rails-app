@@ -12,6 +12,22 @@
                 font-family: "Quicksand", sans-serif;
             }
             
+            #h2-2_0 {
+                text-align: center;
+                margin-top: 17rem;
+                font-family: "Quicksand", sans-serif;
+                color: whitesmoke;
+                margin-bottom: -15rem;
+            }
+            
+            #h2-3_0 {
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                color: whitesmoke;
+                margin-bottom: 6rem;
+                margin-top: -6rem;
+            }
+            
             .h1-banner {
                 width: 15rem;
             }
@@ -170,6 +186,7 @@
                 margin: 4rem;
                 margin-top: 1rem;
                 margin-right: 3rem;
+                margin-left: 9rem;
             }
             
             .container-shivflex {
@@ -528,10 +545,6 @@
                 margin-left: 2rem;
             }
             
-            .big-container {
-                margin-left: 5rem;
-            }
-            
             .img-nav {
                 vertical-align: middle;
                 border-style: none;
@@ -611,7 +624,9 @@
                     margin-right: -1rem;
                 }
                 #h1-first {
-                    display: none;
+                    text-align: center;
+                    font-family: "Quicksand", sans-serif;
+                    font-size: 2rem;
                 }
                 #h1-second {
                     margin-top: 100px;
@@ -642,7 +657,7 @@
                     margin-left: -3vh;
                 }
                 .big-container {
-                    margin-left: 0rem;
+                    margin-left: -4rem;
                 }
                 .shivflex-pros1 {
                     display: flex;
@@ -658,6 +673,15 @@
                     display: flex;
                     justify-content: center;
                     margin-left: 2rem;
+                }
+                #h2-3_0 {
+                    margin-top: 7rem;
+                }
+                #h2-2_0 {
+                    text-align: center;
+                    font-family: "Quicksand", sans-serif;
+                    color: whitesmoke;
+                    margin-bottom: 4rem;
                 }
             }
             
