@@ -154,23 +154,24 @@ body {
     bottom: 0;
 }
 
-.navTrigger i {
-    background-color: white;
-    border-radius: 2px;
+.navTrigger .btn-outline-success {
+    border-radius: 7px;
     content: "";
     display: block;
-    width: 100%;
-    height: 4px;
+    /* width: 100%; */
+    /* height: 4px; */
+    width: 5rem;
+    font-size: 11px;
 }
 
-.navTrigger i:nth-child(1) {
+.navTrigger .btn-outline-success:nth-child(1) {
     -webkit-animation: outT 0.8s backwards;
     animation: outT 0.8s backwards;
     -webkit-animation-direction: reverse;
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(2) {
+.navTrigger .btn-outline-success:nth-child(2) {
     margin: 5px 0;
     -webkit-animation: outM 0.8s backwards;
     animation: outM 0.8s backwards;
@@ -178,7 +179,7 @@ body {
     animation-direction: reverse;
 }
 
-.navTrigger i:nth-child(3) {
+.navTrigger .btn-outline-success:nth-child(3) {
     -webkit-animation: outBtm 0.8s backwards;
     animation: outBtm 0.8s backwards;
     -webkit-animation-direction: reverse;
@@ -190,12 +191,12 @@ body {
     animation: inT 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(2) {
+.navTrigger.active .btn-outline-success:nth-child(2) {
     -webkit-animation: inM 0.8s forwards;
     animation: inM 0.8s forwards;
 }
 
-.navTrigger.active i:nth-child(3) {
+.navTrigger.active .btn-outline-success:nth-child(3) {
     -webkit-animation: inBtm 0.8s forwards;
     animation: inBtm 0.8s forwards;
 }
