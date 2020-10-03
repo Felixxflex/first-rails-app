@@ -4,6 +4,7 @@
     <div class="banner-container-left">
       <h1 class="h1-banner"><img class="h1-banner"src="https://res.cloudinary.com/dn6wh4u2h/image/upload/v1601228575/8CF832A5-CA57-4554-B1FF-96D24DEBEE12_a1bn0h.png" alt="Social Media Management Agency"></h1>
       <p class="young">Young. Dynamic. Effectif.</p>
+
     </div>
     <div class="banner-container-right">
         <img id="iphone" src="https://res.cloudinary.com/dn6wh4u2h/image/upload/v1599334035/18EF16D5-9A40-4419-897F-FDCE0A9FB2F0_iphonexspacegrey_portrait_gzlowf.png" alt="Social media Management"/>
@@ -17,6 +18,7 @@
 <div>
 <h1 id="h1-first">Web-Applications, CMS Websites or Social Media Management?</h1>
 <h2 id="h2-2_0">What do you need?</h2>
+
 </div>
 <div class="container h-100">
   <div class="row align-middle">
@@ -27,7 +29,7 @@
 DEVELOPMENT</h1>
           <p>Web-Application Development</p>
         </div>
-        <a href="/path/web_application/page">more</a>
+        <a href="/path/web_application/page", remote: true>more</a>
         <div class="ico-card">
         <i class="fa fa-rebel"></i>
       </div>
@@ -40,7 +42,7 @@ DEVELOPMENT</h1>
 E-COMMERCE</h1>
           <p>CMS Development</p>
         </div>
-        <a href="/path/web_development/page">more</a>
+        <a href="/path/web_development/page", remote: true>more</a>
       <div class="ico-card">
         <i class="fa fa-codepen"></i>
       </div>
@@ -53,7 +55,7 @@ E-COMMERCE</h1>
 MANAGMENT</h1>
           <p>Social Media Marketing</p>
         </div>
-        <a href="/path/social-media/page">more</a>
+        <a href="/path/social-media/page", remote: true>more</a>
       <div class="ico-card">
         <i class="fa fa-empire"></i>
       </div>
@@ -74,7 +76,7 @@ MANAGMENT</h1>
 <h2 id="h2-3_0">How we work for Web-Development or Social Media Management</h2>
 
 <div class="big-container">
-<div class="row">
+<div class="row_info">
 <div class="container-icon">
   <div class="shivflex-pros">
 <div class="col-lg-4">
@@ -129,8 +131,42 @@ default will be removed</p>
 
 
 
+
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
   <script>
     window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
     formbutton("create", {action: "https://formspree.io/mwkwppdr"})
   </script>
+
+    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered justify-content-center " role="document">
+            <div class="modal-content border-0 mx-3">
+                <div class="modal-body p-0">
+                    <div class="row justify-content-center">
+                        <div class="col-auto">
+                            <div class="card-modal border-0 justify-content-center">
+                                <div class="card-modal-header pb-0 bg-white text-center">
+                                    <div class="row mb-0 justify-content-end">
+                                        <div class="col-3"><img id="img-modal" class="img-fluid cross mb-auto " src="https://img.icons8.com/nolan/64/delete-sign.png" data-dismiss="modal"></div>
+                                    </div>
+                                    <div class="row mt-0">
+                                        <div class="col"><img id="img-modal" class="img-fluid text-center" src="https://res.cloudinary.com/dn6wh4u2h/image/upload/v1600683201/shiv1_his5js.png"></div>
+                                    </div>
+                                </div>
+                                <div class="card-modal-body text-center px-lg-5 px-md-4 mb-3">
+                                   <h2 class="modal-lo"><a class="mod" href="/">Home</a></h2> <br>
+                                   <h2 class="modal-lo"><a class="mod" href="/path/about_development/page">About</a></h2> <br>
+				                           <h2 class="modal-lo"><a class="mod" href="/path/social-media-management/page">Benefits</a></h2> <br>
+			                             <h2 class="modal-lo"><a class="mod" href="/path/contact/page">Contact</a></h2> <br>
+				                           <h2 class="modal-lo"><a class="mod" href="/path/testimonials/page"><button id="start-btn-modal" class="btn btn-outline-success my-2 my-sm-0" type="submit">Testimonials</button></a></h2>
+                                    <div class="row justify-content-center mt-4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
