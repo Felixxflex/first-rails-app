@@ -308,7 +308,7 @@ h4 {
 .main-timeline .description {
     display: inline-block;
     font-size: 16px;
-    color: #404040;
+    color: whitesmoke;
     line-height: 20px;
     letter-spacing: 1px;
     margin: 0
@@ -593,4 +593,10 @@ button.learn-more:active {
 button.learn-more:active::before {
     box-shadow: 0 0 0 2px #42C2B1, 0 0 #26DAC1;
     transform: translate3d(0, 0, -1em);
+}
+
+@media only screen and (max-width: 480px) {
+    .locorino {
+        width: 5rem;
+    }
 }

@@ -1,0 +1,21 @@
+#h1-testi {
+    text-align: center;
+    margin-top: 10rem;
+    font-family: "Quicksand", sans-serif;
+}
+
+.testimon {
+    width: 24rem;
+    border-radius: 2rem;
+}
+
+#testi-media {
+    width: 24rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .testimon {
+        width: 15rem;
+        border-radius: 2rem;
+    }
+}
