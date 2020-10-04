@@ -2,8 +2,15 @@ body {
     margin-bottom: 60px;
 }
 
+.icon-sm {
+    vertical-align: middle;
+    border-style: none;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
 .footer {
-    position: relative;
+    position: unset;
     bottom: 0px;
     width: 100%;
     background-color: #293241;
@@ -11,7 +18,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0 31px;
-    height: 300px;
     clear: both;
 }
 
@@ -19,7 +25,7 @@ body {
     display: inline-block;
     float: right;
     padding-right: 2%;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .footer small {
@@ -28,13 +34,13 @@ body {
 
 .h4-fo {
     color: whitesmoke;
-    margin-top: 10px;
-    margin-bottom: 32px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 #loco-form {
-    margin-top: 18px;
-    margin-left: 28px;
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
 #start-btn {
@@ -48,10 +54,10 @@ body {
 .icons-social {
     display: flex;
     justify-content: space-around;
-    width: 150px;
+    width: 10rem;
     align-items: center;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
 #social-icons {
@@ -65,17 +71,66 @@ body {
 
 .lanza {
     color: whitesmoke;
-    width: 500px;
-    line-height: 7px;
-    margin-top: 90px;
+    width: 30rem;
+    line-height: 1rem;
+    margin-top: 6rem;
 }
 
 .lanzo {
     color: whitesmoke;
-    line-height: 7px;
-    margin-top: 90px;
+    line-height: 1rem;
+    margin-top: 6rem;
 }
 
 a {
     color: whitesmoke;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media only screen and (max-width: 480px) {
+    #loco-form {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        display: none;
+    }
+    .h4-fo {
+        display: none;
+    }
+    #start-btn {
+        display: none;
+    }
+    .icons-social {
+        display: flex;
+        justify-content: space-around;
+        width: 10rem;
+        /* align-items: center; */
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .lanzo {
+        color: whitesmoke;
+        line-height: 1rem;
+        margin-top: 6rem;
+        display: none;
+    }
+    .lanza {
+        color: whitesmoke;
+        width: 30rem;
+        line-height: 1rem;
+        margin-top: 6rem;
+        display: none;
+    }
+    .cntct {
+        margin-left: -350px;
+        margin-top: 80px;
+        margin-right: 4.5rem;
+    }
+    .footer {
+        background-color: black;
+    }
+    .icon-sm {
+        width: 5rem;
+        margin-bottom: 6rem;
+    }
 }
