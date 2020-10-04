@@ -44,7 +44,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 
 gem 'omniauth-github'
 
-
+gem 'mini_racer'
 
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
