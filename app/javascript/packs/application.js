@@ -26,7 +26,6 @@ require("jquery")
 import "bootstrap";
 import 'java_css/site';
 import { mobileMenuNav } from '../components/navbar';
-import { initAutocomplete } from '../plugins/init_autocomplete';
 
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
