@@ -15,7 +15,10 @@ require("jquery")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-
+//= require jquery
+//= require rails-ujs
+//= require activestorage
+//= require_tree .
 
 // ----------------------------------------------------
 // Note(lewagon): ABOVE IS RAILS DEFAULT CONFIGURATION
