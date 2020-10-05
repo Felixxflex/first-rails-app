@@ -26,7 +26,7 @@ gem 'cloudinary', '~> 1.16.0'
 gem 'jquery-rails'
 #filtering
 gem 'acts-as-taggable-on', '~> 6.0'
- gem 'capybara', '>= 2.15'
+ 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
