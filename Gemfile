@@ -34,7 +34,7 @@ gem 'acts-as-taggable-on', '~> 6.0'
 gem 'bootsnap', '>= 1.4.2', require: false
 #search bar
 gem 'pg_search', '~> 2.3.0'
-gem 'uglifier', '~> 2.7'
+gem 'uglifier', '~> 4.2'
 gem 'devise'
 
 gem 'autoprefixer-rails'
