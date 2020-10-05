@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  # devise_for :users
+  devise_for :users
   root to: 'pages#home'
   get "/path/web_development/page", to: "pages#web_development", as: "web_development"
   get "/path/web_application/page", to: "pages#web_application", as: "web_application"

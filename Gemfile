@@ -7,7 +7,7 @@ ruby '2.6.6'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 # Use postgresql as the database for Active Record
 
-gem 'pg'
+gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -26,7 +26,7 @@ gem 'cloudinary', '~> 1.16.0'
 gem 'jquery-rails'
 #filtering
 gem 'acts-as-taggable-on', '~> 6.0'
- gem 'capybara', '>= 2.15'
+ 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -34,7 +34,7 @@ gem 'acts-as-taggable-on', '~> 6.0'
 gem 'bootsnap', '>= 1.4.2', require: false
 #search bar
 gem 'pg_search', '~> 2.3.0'
-
+gem 'uglifier', '~> 4.2'
 gem 'devise'
 
 gem 'autoprefixer-rails'
@@ -48,7 +48,6 @@ gem 'mini_racer'
 
 group :development, :test do  gem 'pry-byebug'
   gem 'pry-rails'
-  gem 'faker'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -65,6 +64,7 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
+  gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
