@@ -16,3 +16,22 @@
 #html {
     color: #072ac8;
 }
+
+.description {
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 480px) {
+    .css {
+        width: 5rem;
+    }
+    .js {
+        width: 5rem;
+    }
+    .html {
+        width: 5rem;
+    }
+    .ruby {
+        width: 5rem;
+    }
+}

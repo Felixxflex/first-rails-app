@@ -7,16 +7,36 @@
         
         #h1-first {
             text-align: center;
-            margin-top: 34px;
-            margin-bottom: -80px;
+            margin-top: 3rem;
+            margin-bottom: -10rem;
             font-family: "Quicksand", sans-serif;
+        }
+        
+        #h2-2_0 {
+            text-align: center;
+            margin-top: 17rem;
+            font-family: "Quicksand", sans-serif;
+            color: whitesmoke;
+            margin-bottom: -15rem;
+        }
+        
+        #h2-3_0 {
+            text-align: center;
+            font-family: "Quicksand", sans-serif;
+            color: whitesmoke;
+            margin-bottom: 6rem;
+            margin-top: -6rem;
+        }
+        
+        .h1-banner {
+            width: 15rem;
         }
         
         #h1-second {
             text-align: center;
-            margin-top: -140px;
+            margin-top: -8rem;
             font-family: "Quicksand", sans-serif;
-            margin-bottom: 135px;
+            margin-bottom: 12rem;
         }
         
         #h1-three {
@@ -43,13 +63,21 @@
         }
         
         #iphone {
-            width: 325px;
-            height: 325px;
+            width: 18rem;
+            height: 18rem;
         }
         
         #laptop {
-            width: 500px;
-            height: 500px;
+            width: 28rem;
+            height: 28rem;
+        }
+        
+        #investement {
+            margin-left: 0.5rem;
+        }
+        
+        #design-ic {
+            margin-left: 2.5rem;
         }
         
         #ipx {
@@ -63,6 +91,7 @@
             font-family: "Quicksand", sans-serif;
             // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
             font-size: 60px;
+            margin-left: 6rem;
         }
         
         .clients-container {
@@ -87,10 +116,9 @@
         }
         
         .banner.landing p {
-            font-size: 20px;
+            font-size: 1rem;
             color: white;
-            margin-left: 105px;
-            // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+            margin-left: 12vh;
         }
         
         .our-developers-info {
@@ -150,6 +178,12 @@
             color: whitesmoke;
         }
         
+        .h2-extra {
+            margin-top: 34px;
+            color: whitesmoke;
+            margin-left: 2rem;
+        }
+        
         .card-img-top {
             height: 212px;
         }
@@ -157,12 +191,41 @@
         .container-icon {
             display: flex;
             justify-content: space-around;
-            margin: 30px;
-            margin-top: 82px;
-            margin-right: 80px;
+            margin: 4rem;
+            margin-top: 1rem;
+            margin-right: 3rem;
+            margin-left: 9rem;
+        }
+        
+        .container-shivflex {
+            display: flex;
+            justify-content: space-around;
+            margin: 4rem;
+            margin-right: 3rem;
+            margin-bottom: 8rem;
+            margin-top: -4rem;
         }
         
         .welance-pros {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            margin-top: -40px;
+            margin-bottom: 82px;
+            margin: 2rem;
+        }
+        
+        .shivflex-pros {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            text-align: center;
+            margin-top: -40px;
+            margin-bottom: 82px;
+        }
+        
+        .shivflex-pros1 {
             display: flex;
             flex-direction: column;
             align-content: center;
@@ -388,7 +451,7 @@
             position: relative;
             top: 50%;
             transform: translateY(-50%);
-            margin-top: -240px;
+            margin-top: 1rem;
         }
         
         .column {
@@ -483,25 +546,34 @@
         
         #icons {
             width: 6rem;
-            margin-left: 8rem;
+            margin-top: 4rem;
+        }
+        
+        #icons-io {
+            margin-left: 2rem;
         }
         
         .img-nav {
             vertical-align: middle;
             border-style: none;
-            height: 46px;
-            margin-left: 56px;
+            height: 4rem;
+            margin-left: 4rem;
         }
         
         .p-how {
             color: whitesmoke;
         }
         
+        .p-extra {
+            color: whitesmoke;
+            margin-left: 2rem;
+        }
+        
         //device ipad
         @media only screen and (max-width: 1024px) {
             #iphone {
-                height: 250px;
-                width: 250px;
+                height: 10rem;
+                width: 10rem;
             }
             #laptop {
                 height: 250px;
@@ -509,9 +581,27 @@
             }
             #banner-landing {
                 margin-top: 100px;
+                margin-right: -6rem;
+            }
+            h1 {
+                display: block;
+                font-size: 3em;
+                margin: 0.6em 0;
+                font-weight: bold;
+                margin-right: -7rem;
+            }
+            .container {
+                /* margin: 0; */
+                margin-right: 0rem;
+            }
+            .indicator {
+                display: none;
             }
         }
         
+        // .indicator {
+        //     margin-top: 3rem;
+        // }
         //device iphone
         @media only screen and (max-width: 480px) {
             #iphone {
@@ -522,14 +612,81 @@
                 height: 100px;
                 width: 100px;
             }
+            .btn-primary {
+                display: inline-block;
+            }
+            .row_info {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+                margin-bottom: -12rem;
+            }
             #banner-landing {
-                margin-bottom: 250px;
+                margin-bottom: 8rem;
+                margin-right: -1rem;
+            }
+            .col-lg-4 {
+                flex: 1 0 33.3333333333%;
+                max-width: 104.333333%;
+                margin-left: 0.5rem;
+            }
+            .shivflex-pros {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                text-align: center;
+                margin-top: -40px;
+                margin-bottom: 82px;
+                margin-left: -2rem;
+            }
+            .banner-container-right {
+                margin-right: 10vh;
+            }
+            html {
+                margin-right: -1rem;
             }
             #h1-first {
-                display: none;
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                font-size: 2rem;
             }
             #h1-second {
                 margin-top: 100px;
+                font-size: 2rem;
+            }
+            #h1-about {
+                margin-top: 2rem;
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                font-size: 2rem;
+            }
+            #h1-bene {
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                margin-top: 8rem;
+                margin-bottom: 4rem;
+                font-size: 2rem;
+            }
+            #h1-testi {
+                text-align: center;
+                margin-top: 10rem;
+                font-family: "Quicksand", sans-serif;
+                font-size: 2rem;
+            }
+            #h1-six {
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                margin-top: 2rem;
+                margin-bottom: 4rem;
+                font-size: 2rem;
+            }
+            #h1-seven {
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                margin-top: 6rem;
+                margin-bottom: 6rem;
+                font-size: 2rem;
             }
             .indicator {
                 display: none;
@@ -541,4 +698,63 @@
             .center {
                 width: auto;
             }
+            .p-anima {
+                flex: 1;
+                line-height: .75;
+                margin: auto;
+                color: #1af0dc;
+                text-align: center;
+                transform: scaleX(var(--scale, 1));
+                -webkit-animation: glitch-p 11s infinite alternate;
+                animation: glitch-p 11s infinite alternate;
+                margin-top: 40rem;
+            }
+            .h1-banner {
+                width: 15rem;
+                margin-left: -3vh;
+            }
+            .big-container {
+                margin-left: -4rem;
+            }
+            .shivflex-pros1 {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                text-align: center;
+                margin-top: -40px;
+                margin-bottom: 82px;
+                margin-left: -3rem;
+            }
+            .about-cont {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                margin-left: 2rem;
+            }
+            #h2-3_0 {
+                margin-top: 7rem;
+            }
+            #h2-2_0 {
+                text-align: center;
+                font-family: "Quicksand", sans-serif;
+                color: whitesmoke;
+                margin-bottom: 4rem;
+            }
+            .img-nav {
+                vertical-align: middle;
+                border-style: none;
+                height: 4rem;
+                margin-left: 3rem;
+            }
+        }
+        
+        @media screen and (max-width: 1280px) {
+            .btn-primary {
+                display: none;
+            }
+        }
+        
+        .col-lg-4 {
+            flex: 1 0 33.3333333333%;
+            max-width: 104.333333%;
         }
