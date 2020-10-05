@@ -1,20 +1,20 @@
 {
-  "name": "first_rails_app",
-  "private": true,
-  "dependencies": {
-    "@rails/actioncable": "^6.0.0",
-    "@rails/ujs": "^6.0.0",
-    "@rails/webpacker": "4.3.0",
-    "@webpack-cli/init": "^0.3.0",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.5.1",
-    "pug": "^3.0.0",
-    "turbolinks": "^5.2.0",
-    "vue-template-compiler": "^2.6.12"
-  },
-  "version": "0.1.0",
-  "devDependencies": {
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
-  }
+    "name": "first_rails_app",
+    "private": true,
+    "dependencies": {
+        "@rails/actioncable": "^6.0.0",
+        "@rails/ujs": "^6.0.0",
+        "@rails/webpacker": "4.3.0",
+        "@webpack-cli/init": "^0.3.0",
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "pug": "^3.0.0",
+        "turbolinks": "^5.2.0",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "version": "0.1.0",
+    "devDependencies": {
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
 }
