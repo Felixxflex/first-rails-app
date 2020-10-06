@@ -19,6 +19,7 @@
         "@babel/preset-env": "^7.11.5",
         "@webpack-cli/migrate": "^0.1.9",
         "babel-preset-es2015": "^6.24.1",
+        "css-loader": "^4.3.0",
         "webpack": "^4.44.2",
         "webpack-cli": "^3.3.12",
         "webpack-dev-server": "^3.11.0"
