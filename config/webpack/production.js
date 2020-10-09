@@ -4,9 +4,7 @@ const environment = require('./environment')
 
 module.exports = environment.toWebpackConfig()
 
-const common = require('./webpack.common.js')(); // Pay attention to the invocation.
 
-module.exports = merge(common, {});
 
 module.exports = {
     module: {
