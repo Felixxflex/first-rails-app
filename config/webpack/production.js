@@ -5,12 +5,12 @@ const environment = require('./environment')
 module.exports = environment.toWebpackConfig()
 
 module.exports = {
+    mode: "development",
     module: {
         rules: [{
             test: /\.css$/i,
             use: ['style-loader', 'css-loader'],
-        }, ],
-        mode: 'development'
+        }, ]
     },
 };
 var path = require('path');
