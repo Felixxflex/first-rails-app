@@ -43,6 +43,7 @@ module.exports = {
             use: {
                 loader: "babel-loader"
             }
-        }]
+        }],
+        mode: 'development'
     }
 }
