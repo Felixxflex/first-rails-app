@@ -28,8 +28,8 @@
         "webpack-dev-server": "^3.11.0"
     },
     "scripts": {
-        "dev": "webpack --mode development --env.dist=false",
-        "dev:dist": "webpack --mode development",
-        "build": "webpack --mode production"
+        "build": "webpack --config <path_to_webpack_config>/webpack.config.js",
+        "start-hot": "node server.js",
+        "start": "webpack-dev-server --content-base public/ --inline --port 3001"
     }
 }
