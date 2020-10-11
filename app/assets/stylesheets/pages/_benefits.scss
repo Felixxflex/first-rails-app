@@ -1,3 +1,8 @@
+.row:before,
+.row:after {
+    display: none !important;
+}
+
 #h1-bene {
     text-align: center;
     font-family: "Quicksand", sans-serif;
@@ -11,9 +16,4 @@
     margin: 4rem;
     margin-top: 1rem;
     margin-right: 3rem;
-}
-
-.row:before,
-.row:after {
-    display: none !important;
 }
