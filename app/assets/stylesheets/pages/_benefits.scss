@@ -12,3 +12,8 @@
     margin-top: 1rem;
     margin-right: 3rem;
 }
+
+.row:before,
+.row:after {
+    display: none !important;
+}
