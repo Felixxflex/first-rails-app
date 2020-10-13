@@ -603,7 +603,7 @@
             //     margin-top: 3rem;
             // }
             //device iphone
-            @media only screen and (max-width: 480px) {
+            @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
                 #iphone {
                     height: 100px;
                     width: 100px;
@@ -754,7 +754,7 @@
                 }
             }
             
-            @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+            @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
                 .col-lg-4 {
                     flex: 1 0 33.3333333333%;
                     max-width: 104.333333%;
