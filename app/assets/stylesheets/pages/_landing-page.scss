@@ -193,7 +193,7 @@
                 justify-content: space-around;
                 margin: 4rem;
                 margin-top: 1rem;
-                margin-right: 3rem;
+                margin-right: 6rem;
                 margin-left: 9rem;
             }
             
@@ -607,6 +607,9 @@
                 #iphone {
                     height: 100px;
                     width: 100px;
+                }
+                body {
+                    max-width: 23rem;
                 }
                 #laptop {
                     height: 100px;
