@@ -29,7 +29,7 @@
     color: #1af0dc;
     text-align: center;
     transform: scaleX(var(--scale, 1));
-    animation: glitch-p 11s infinite alternate;
+    animation: glitch-p 11s linear 0.1s infinite alternate;
     &::before,
     &::after {
         --top: 0; // offset from top [0 - 10]
@@ -51,14 +51,14 @@
         clip-path: polygon(0% var(--t-cut), 100% var(--t-cut), 100% var(--b-cut), 0% var(--b-cut));
     }
     &::before {
-        animation: glitch-b 1.7s infinite alternate-reverse;
+        animation: glitch-b 1.7s linear 0.1s infinite alternate-reverse;
     }
     &::after {
-        animation: glitch-a 3.1s infinite alternate;
+        animation: glitch-a 3.1s linear 0.1s infinite alternate;
     }
 }
 
-@-webkit-keyframes glitch-p {
+@keyframes glitch-p {
     17% {
         -webkit---scale: .87;
     }
@@ -76,7 +76,7 @@
     }
 }
 
-@-webkit-keyframes glitch-a {
+@keyframes glitch-a {
     10%,
     30%,
     50%,
@@ -113,7 +113,7 @@
     }
 }
 
-@-webkit-keyframes glitch-b {
+@keyframes glitch-b {
     10%,
     30%,
     50%,
