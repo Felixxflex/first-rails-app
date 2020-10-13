@@ -763,10 +763,13 @@
                             max-width: 104.333333%;
                             margin-left: -5px;
                         }
-                        .col-lg-4 .fast {
-                            flex: 1 0 33.3333333333%;
-                            max-width: 104.333333%;
-                            margin-left: 23px;
+                        .shivflex-pros {
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                            text-align: center;
+                            margin-top: -40px;
+                            margin-bottom: 82px;
                         }
                     }
                     
@@ -781,6 +784,14 @@
                             flex: 1 0 33.3333333333%;
                             max-width: 104.333333%;
                             margin-left: 1rem;
+                        }
+                        .shivflex-pros {
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                            text-align: center;
+                            margin-top: -40px;
+                            margin-bottom: 82px;
                         }
                     }
                     
