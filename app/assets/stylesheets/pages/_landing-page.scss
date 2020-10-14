@@ -2,7 +2,9 @@
                 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
                 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
                 html,
-                body {}
+                body {
+                    overflow-x: hidden;
+                }
                 
                 body {
                     background-color: black;
@@ -903,7 +905,6 @@
                         width: 21rem;
                         background-color: #26DAC1;
                         height: 13rem;
-                        margin-right: -12px;
                     }
                     .card5 {
                         margin: 0;
