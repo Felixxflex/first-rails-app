@@ -956,6 +956,13 @@
                     body {
                         max-width: 25.5rem;
                     }
+                    .container-icon {
+                        display: flex;
+                        justify-content: space-around;
+                        margin: 4rem;
+                        margin-top: 1rem;
+                        margin-right: 24px;
+                    }
                     .col-lg-4 {
                         flex: 1 0 33.3333333333%;
                         max-width: 104.333333%;
