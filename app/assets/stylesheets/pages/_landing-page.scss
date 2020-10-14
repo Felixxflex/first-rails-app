@@ -637,10 +637,7 @@
                             margin-right: -65px;
                         }
                         .row {
-                            display: flex;
-                            /* flex-wrap: wrap; */
-                            margin-right: -15px;
-                            margin-left: -15px;
+                            flex-wrap: none;
                         }
                         .card4 {
                             margin: 0;
