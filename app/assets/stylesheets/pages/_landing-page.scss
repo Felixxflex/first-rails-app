@@ -768,21 +768,6 @@
                         max-width: 104.333333%;
                         margin-left: -5px;
                     }
-                    .card5 {
-                        margin: 0;
-                        padding: 1.7rem 1.2rem;
-                        border: none;
-                        border-radius: 0;
-                        color: black;
-                        letter-spacing: .05rem;
-                        font-family: "Quicksand", sans-serif;
-                        box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
-                        border-radius: 44px;
-                        width: 21rem;
-                        background-color: #26DAC1;
-                        height: 13rem;
-                        margin-left: 57px;
-                    }
                     .shivflex-pros {
                         display: flex;
                         flex-direction: column;
@@ -802,7 +787,7 @@
                 
                 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
                     body {
-                        max-width: 25rem;
+                        max-width: 27rem;
                     }
                     .col-lg-4 {
                         flex: 1 0 33.3333333333%;
@@ -861,7 +846,7 @@
                     width: 21rem;
                     background-color: #26DAC1;
                     height: 13rem;
-                    margin-left: 22px;
+                    margin-left: 36px;
                 }
                 
                 .col-lg-4 {
