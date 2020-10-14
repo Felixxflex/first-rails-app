@@ -181,7 +181,6 @@
                 .h2-extra {
                     margin-top: 34px;
                     color: whitesmoke;
-                    margin-left: 2rem;
                 }
                 
                 .card-img-top {
@@ -695,6 +694,11 @@
                         font-family: "Quicksand", sans-serif;
                         font-size: 2rem;
                     }
+                    .h2-extra {
+                        margin-top: 34px;
+                        color: whitesmoke;
+                        margin-left: 4rem;
+                    }
                     #h1-second {
                         margin-top: 100px;
                         font-size: 2rem;
@@ -717,6 +721,9 @@
                         margin-top: 10rem;
                         font-family: "Quicksand", sans-serif;
                         font-size: 2rem;
+                    }
+                    #icons-io {
+                        margin-left: 5rem;
                     }
                     #h1-six {
                         text-align: center;
@@ -856,7 +863,7 @@
                 //device iphone 11 XS
                 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
                     body {
-                        max-width: 27rem;
+                        max-width: 25rem;
                     }
                     .col-lg-4 {
                         flex: 1 0 33.3333333333%;
@@ -934,5 +941,10 @@
                 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
                     body {
                         max-width: 25.5rem;
+                    }
+                    .col-lg-4 {
+                        flex: 1 0 33.3333333333%;
+                        max-width: 104.333333%;
+                        margin-left: 2px;
                     }
                 }
