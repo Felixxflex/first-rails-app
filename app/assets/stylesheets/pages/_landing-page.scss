@@ -820,6 +820,10 @@
                         max-width: 104.333333%;
                         margin-left: -5px;
                     }
+                    .pages-home {
+                        color: rgba(0, 0, 0, 0.19);
+                        max-width: 97%;
+                    }
                     .shivflex-pros {
                         display: flex;
                         flex-direction: column;
@@ -871,6 +875,10 @@
                 @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
                     body {
                         max-width: 25rem;
+                    }
+                    .pages-home {
+                        color: rgba(0, 0, 0, 0.19);
+                        max-width: 97%;
                     }
                     .col-lg-4 {
                         flex: 1 0 33.3333333333%;
