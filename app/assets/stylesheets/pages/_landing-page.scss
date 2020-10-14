@@ -929,3 +929,10 @@
                         margin-left: 1rem;
                     }
                 }
+                
+                //Iphone XR
+                @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+                    body {
+                        max-width: 25.5rem;
+                    }
+                }
