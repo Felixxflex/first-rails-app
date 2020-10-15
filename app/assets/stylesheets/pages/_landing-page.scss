@@ -917,6 +917,17 @@
                             }
                         }
                         
+                        @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+                            #iphone {
+                                width: 11rem;
+                                height: 11rem;
+                            }
+                            #laptop {
+                                width: 16rem;
+                                height: 16rem;
+                            }
+                        }
+                        
                         //device iphone 11 XS
                         @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
                             body {
