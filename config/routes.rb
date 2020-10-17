@@ -8,5 +8,6 @@ Rails.application.routes.draw do
   get "/path/social-media-management/page", to: "pages#social-media-management", as: "social-media-management"
   get "/path/contact/page", to: "pages#contact", as: "contact"
   get "/path/testimonials/page", to: "pages#testimonials", as: "testimonials"
+  get "/path/corona-package/page", to: "pages#coronapackage", as: "corona-package"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
