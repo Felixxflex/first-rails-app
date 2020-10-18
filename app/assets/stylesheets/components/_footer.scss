@@ -1,76 +1,134 @@
-.card {
+body {
+    margin-bottom: 60px;
+}
+
+.icon-sm {
+    vertical-align: middle;
+    border-style: none;
+    width: 3rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    position: unset;
+    bottom: 0px;
+    width: 100%;
     background-color: #293241;
-    color: white;
-    margin-top: 50px;
-    border: none
-}
-
-.head1 {
-    font-weight: 900;
-    font-size: 30px
-}
-
-.bdr {
-    border-bottom: 1.5px solid #FFB74D;
-    width: 65px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.card-footer {
+    background-size: cover;
+    display: flex;
     justify-content: space-between;
-    border: none;
-    background: none;
-    border-bottom: 0.5px solid #9E9E9E
+    padding: 0 31px;
+    clear: both;
 }
 
-.footer-right>i {
-    margin-left: 15px
+.smedia {
+    display: inline-block;
+    float: right;
+    padding-right: 2%;
+    margin-top: 5rem;
 }
 
-.fa-hand-holding-usd {
-    color: #FFB74D
+.footer small {
+    color: #07689f;
 }
 
-.fa-handshake {
-    color: #FFB74D
+.h4-fo {
+    color: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
-.card-title {
-    margin-bottom: .75rem;
-    font-weight: 900;
-    font-size: 15px;
-    margin-top: 1.75rem
+#loco-form {
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
-.learn-more {
-    color: #FFB74D
+#start-btn {
+    width: 248px;
 }
 
-.fa-angle-right {
-    margin-left: 10px
+.acunt {
+    color: whitesmoke;
 }
 
-.fa-3x {
-    color: #FFB74D
+.icons-social {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 3rem;
 }
 
-.card-content {
-    padding-right: 40px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px
+#social-icons {
+    color: whitesmoke;
 }
 
-.card-content>p {
-    color: #9E9E9E
+.cntct {
+    margin-left: -350px;
+    margin-top: 80px;
 }
 
-.heading {
-    position: relative;
-    top: 75px
+.lanza {
+    color: whitesmoke;
+    width: 30rem;
+    line-height: 1rem;
+    margin-top: 6rem;
 }
 
-.follow-text {
-    color: #9E9E9E
+.lanzo {
+    color: whitesmoke;
+    line-height: 1rem;
+    margin-top: 6rem;
+}
+
+a {
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 480px) {
+    #loco-form {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        display: none;
+    }
+    .h4-fo {
+        display: none;
+    }
+    #start-btn {
+        display: none;
+    }
+    .icons-social {
+        display: flex;
+        justify-content: space-around;
+        width: 10rem;
+        /* align-items: center; */
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    .lanzo {
+        color: whitesmoke;
+        line-height: 1rem;
+        margin-top: 6rem;
+        display: none;
+    }
+    .lanza {
+        color: whitesmoke;
+        width: 30rem;
+        line-height: 1rem;
+        margin-top: 6rem;
+        display: none;
+    }
+    .cntct {
+        margin-left: -350px;
+        margin-top: 80px;
+        margin-right: 4.5rem;
+    }
+    .footer {
+        background-color: black;
+    }
+    .icon-sm {
+        width: 5rem;
+        margin-bottom: 6rem;
+    }
 }
