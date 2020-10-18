@@ -621,6 +621,69 @@
                                     padding: 0;
                                     padding-right: 1rem;
                                 }
+                                #banner-landing {
+                                    margin-top: 160px;
+                                    margin-right: -6rem;
+                                }
+                                .card5 {
+                                    margin: 0;
+                                    padding: 1.7rem 1.2rem;
+                                    border: none;
+                                    border-radius: 0;
+                                    color: black;
+                                    letter-spacing: .05rem;
+                                    font-family: "Quicksand", sans-serif;
+                                    box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+                                    border-radius: 44px;
+                                    width: 21rem;
+                                    background-color: #26DAC1;
+                                    height: 13rem;
+                                    /* margin-left: 36px; */
+                                    width: 19rem;
+                                    height: 15rem;
+                                }
+                                .p-anima {
+                                    flex: 1;
+                                    line-height: .75;
+                                    /* margin: auto; */
+                                    color: #1af0dc;
+                                    text-align: center;
+                                    transform: scaleX(var(--scale, 1));
+                                    -webkit-animation: glitch-p 11s linear 0.1s infinite alternate;
+                                    animation: glitch-p 11s linear 0.1s infinite alternate;
+                                    margin-top: 11rem;
+                                }
+                                .nav.global div.main_list ul {
+                                    width: 100%;
+                                    height: 65px;
+                                    display: flex;
+                                    list-style: none;
+                                    padding: 0;
+                                    margin-right: -155px;
+                                }
+                                #h2-3_0 {
+                                    text-align: center;
+                                    font-family: "Quicksand", sans-serif;
+                                    color: whitesmoke;
+                                    margin-bottom: 6rem;
+                                    margin-top: -38rem;
+                                }
+                                .card4 {
+                                    margin: 0;
+                                    padding: 1.7rem 1.2rem;
+                                    border: none;
+                                    border-radius: 0;
+                                    color: black;
+                                    letter-spacing: .05rem;
+                                    font-family: "Quicksand", sans-serif;
+                                    box-shadow: 0 0 21px rgba(0, 0, 0, 0.27);
+                                    border-radius: 44px;
+                                    width: 21rem;
+                                    background-color: #26DAC1;
+                                    height: 13rem;
+                                    width: 18rem;
+                                    height: 15rem;
+                                }
                                 .card5 {
                                     margin: 0;
                                     padding: 1.7rem 1.2rem;
@@ -1102,5 +1165,8 @@
                                     height: 13rem;
                                     width: 12rem;
                                     height: 21rem;
+                                }
+                                .indicator {
+                                    display: none;
                                 }
                             }
