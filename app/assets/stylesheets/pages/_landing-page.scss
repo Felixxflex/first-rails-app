@@ -1159,3 +1159,31 @@
                                     display: none;
                                 }
                             }
+                            
+                            @media only screen and (min-device-width: 1280px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) {
+                                .container {
+                                    margin-right: 5rem;
+                                }
+                                .nav.global div.main_list {
+                                    height: 65px;
+                                    float: right;
+                                    margin-right: 2rem;
+                                }
+                                #h2-3_0 {
+                                    text-align: center;
+                                    font-family: "Quicksand", sans-serif;
+                                    color: whitesmoke;
+                                    margin-bottom: 6rem;
+                                    margin-top: -16rem;
+                                }
+                                .p-anima {
+                                    flex: 1;
+                                    line-height: .75;
+                                    color: #1af0dc;
+                                    text-align: center;
+                                    transform: scaleX(var(--scale, 1));
+                                    -webkit-animation: glitch-p 11s linear 0.1s infinite alternate;
+                                    animation: glitch-p 11s linear 0.1s infinite alternate;
+                                    margin-top: 18rem;
+                                }
+                            }
