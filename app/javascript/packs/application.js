@@ -28,7 +28,6 @@ require("jquery")
 // External imports
 import "bootstrap";
 import 'java_css/site';
-import '../components/modal'
 import { mobileMenuNav } from '../components/navbar';
 
 // Internal imports, e.g:
