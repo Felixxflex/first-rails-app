@@ -19,7 +19,7 @@ require "active_storage/engine"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-
+Rails.autoloaders.main.ignore(Rails.root.join('lib/generators/asset_manifest_generator.rb'))
 module FirstRailsApp
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
