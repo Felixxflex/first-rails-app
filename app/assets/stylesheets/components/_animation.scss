@@ -110,3 +110,20 @@ skew to change the 'thickness' of the glitch.*/
             }
         }
     }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .glitch {
+            position: relative;
+            margin: 0 auto;
+            margin-top: 35rem;
+            background: black;
+            font-family: "Quicksand", sans-serif;
+        }
+        .glitch {
+            position: relative;
+            color: white;
+            font-size: 2em;
+            letter-spacing: 0.5em;
+            animation: glitch-skew 1s infinite linear alternate-reverse;
+        }
+    }
