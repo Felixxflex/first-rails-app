@@ -751,6 +751,20 @@
                                         height: 100px;
                                         width: 100px;
                                     }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
+                                    }
                                     #h1-corona {
                                         margin-top: 10rem;
                                         text-align: center;
@@ -934,6 +948,20 @@
                                         color: rgba(0, 0, 0, 0.19);
                                         max-width: 97%;
                                     }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
+                                    }
                                     .shivflex-pros {
                                         display: flex;
                                         flex-direction: column;
@@ -1001,6 +1029,20 @@
                                         color: rgba(0, 0, 0, 0.19);
                                         max-width: 97%;
                                     }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
+                                    }
                                     .col-lg-4 {
                                         flex: 1 0 33.3333333333%;
                                         max-width: 104.333333%;
@@ -1058,12 +1100,40 @@
                                     .shivflex-pros {
                                         margin-left: 14px;
                                     }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
+                                    }
                                 }
                                 
                                 //phone 8+
                                 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
                                     body {
                                         max-width: 26rem;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
                                     }
                                     .col-lg-4 {
                                         flex: 1 0 33.3333333333%;
@@ -1079,6 +1149,20 @@
                                     }
                                     #icons-io {
                                         margin-left: 5rem;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
                                     }
                                     .container-icon {
                                         display: flex;
@@ -1105,6 +1189,20 @@
                                         margin: 4rem;
                                         margin-top: 1rem;
                                         margin-right: 25px;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        margin: 0 auto;
+                                        margin-top: 35rem;
+                                        background: black;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .glitch {
+                                        position: relative;
+                                        color: white;
+                                        font-size: 2em;
+                                        letter-spacing: 0.5em;
+                                        animation: glitch-skew 1s infinite linear alternate-reverse;
                                     }
                                     .about-cont {
                                         margin-left: 17px;
