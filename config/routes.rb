@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get "/path/contact/page", to: "pages#contact", as: "contact"
   get "/path/testimonials/page", to: "pages#testimonials", as: "testimonials"
   get "/path/corona-package/page", to: "pages#corona-package", as: "corona-package"
+  get "/path/pricing/page", to: "pages#pricing", as: "pricing"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
