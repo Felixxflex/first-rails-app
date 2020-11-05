@@ -751,14 +751,12 @@
                                 }
                                 
                                 //desktop xl
-                                @media only screen and (min-device-width: 1440px) and (max-device-width: 2560px) and (-webkit-min-device-pixel-ratio: 2) {
-                                    .app {
-                                        max-width: var(--sectionWidth);
-                                        margin: 40px auto;
-                                        width: 97%;
-                                        color: #49b6ff;
-                                        margin-bottom: -60rem;
-                                    }
+                                .app {
+                                    max-width: var(--sectionWidth);
+                                    margin: 40px auto;
+                                    width: 97%;
+                                    color: #49b6ff;
+                                    margin-bottom: -60rem !important;
                                 }
                                 
                                 // .indicator {
