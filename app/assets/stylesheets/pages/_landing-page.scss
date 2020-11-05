@@ -750,6 +750,17 @@
                                     }
                                 }
                                 
+                                //desktop xl
+                                @media only screen and (min-device-width: 1440px) and (max-device-width: 2560px) and (-webkit-min-device-pixel-ratio: 2) {
+                                    .app {
+                                        max-width: var(--sectionWidth);
+                                        margin: 40px auto;
+                                        width: 97%;
+                                        color: #49b6ff;
+                                        margin-bottom: -60rem;
+                                    }
+                                }
+                                
                                 // .indicator {
                                 //     margin-top: 3rem;
                                 // }
@@ -758,6 +769,31 @@
                                     #iphone {
                                         height: 100px;
                                         width: 100px;
+                                    }
+                                    #h1-corona {
+                                        margin-top: 10rem;
+                                        font-size: 2rem;
+                                        text-align: center;
+                                        font-family: "Quicksand", sans-serif;
+                                    }
+                                    .cardprice {
+                                        position: relative;
+                                        max-width: 300px;
+                                        height: auto;
+                                        background: linear-gradient(-45deg, #fe0847, #feae3f);
+                                        border-radius: 15px;
+                                        margin: 0 auto;
+                                        padding: 40px 20px;
+                                        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+                                        transition: .5s;
+                                        margin-bottom: 8rem;
+                                    }
+                                    #h1-8 {
+                                        text-align: center;
+                                        font-family: "Quicksand", sans-serif;
+                                        margin-top: 128rem;
+                                        margin-bottom: 6rem;
+                                        font-size: 2rem;
                                     }
                                     .glitch2 {
                                         position: relative;
