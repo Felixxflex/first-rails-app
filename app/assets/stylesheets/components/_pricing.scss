@@ -134,3 +134,30 @@ section {
     margin-bottom: 4rem;
     font-family: "Quicksand", sans-serif;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .pricebut {
+        display: none;
+    }
+    #h1-price {
+        display: none;
+    }
+}
+
+.pricebut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 6rem;
+}
+
+#h1-price {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 128rem;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+}
