@@ -143,12 +143,12 @@
     font-size: 2rem;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
     .pricebut {
         display: none;
     }
     #h1-dollar {
-        display: none;
+        color: black;
     }
 }
 
