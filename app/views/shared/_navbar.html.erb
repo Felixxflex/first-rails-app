@@ -13,8 +13,29 @@
 				<li><a href="/path/testimonials/page", remote: true><button id="start-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Testimonials</button></a></li>
 			</ul>
 			<span class="navTrigger">
+<nav class="loco">
+<div class="widget">
+  <div class="menu">
+    <div class="toggle"><i></i><i></i></div>
+    <ul class="list">
+      <li><a href="/path/testimonials/page"><h2 class="h1nav">Testimonial</h2></a></li>
+      <li><a href="/path/contact/page"><h2 class="h2nav">Contact</h2></a></li>
+      <li><a href="/path/about_development/page"><h2 class="h3nav">About</h2></a></li>
+      <li><a href="/"><h2 class="h4nav">Home</h2></a></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</nav>
 
-     <div class="container d-flex justify-content-center"> <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#my-modal", remote: true>Menu</button>
+<script>
+let widget = document.querySelector('.widget')
+let toggle = document.querySelector('.toggle')
+
+toggle.addEventListener('click', () => {
+  widget.classList.toggle('active')
+})
+</script>
 
 </span>
 		</div>
@@ -28,7 +49,9 @@
 		if ($(document).scrollTop() > 50) {
 			$('.nav.global').addClass('affix');
 		} else {
-			$('.nav.global').removeClass('affix');
+			$('.loco').removeClass('affix');
 		}
 	});
 </script>
+
+
