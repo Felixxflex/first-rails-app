@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
-section {
+.newprice {
     width: 100%;
     height: 100vh;
     -webkit-box-sizing: border-box;
@@ -133,4 +133,38 @@ section {
     margin-top: 13rem;
     margin-bottom: 4rem;
     font-family: "Quicksand", sans-serif;
+}
+
+#h1-dollar {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 25rem;
+    margin-bottom: 6rem;
+    font-size: 2rem;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) {
+    .pricebut {
+        display: none;
+    }
+    #h1-dollar {
+        color: black;
+    }
+}
+
+.pricebut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 6rem;
+}
+
+#h1-price {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 6rem;
+    font-size: 2rem;
 }
