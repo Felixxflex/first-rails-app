@@ -16,6 +16,10 @@
                                         width: 100%;
                                     }
                                     
+                                    #banner-landing {
+                                        margin-top: -6% !important;
+                                    }
+                                    
                                     #h1-8 {
                                         text-align: center;
                                         font-family: "Quicksand", sans-serif;
@@ -43,8 +47,8 @@
                                         text-align: center;
                                         font-family: "Quicksand", sans-serif;
                                         color: whitesmoke;
-                                        margin-bottom: 6rem;
-                                        margin-top: -32rem;
+                                        margin-bottom: 8rem !important;
+                                        margin-top: -2rem;
                                     }
                                     
                                     .h1-banner {
@@ -624,6 +628,22 @@
                                             height: 10rem;
                                             width: 10rem;
                                         }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        .row {
+                                            display: none;
+                                        }
                                         .nav.global div.main_list ul li {
                                             width: auto;
                                             height: 65px;
@@ -733,6 +753,7 @@
                                         #banner-landing {
                                             margin-top: 100px;
                                             margin-right: -6rem;
+                                            margin-top: -17% !important;
                                         }
                                         h1 {
                                             display: block;
@@ -759,6 +780,12 @@
                                         #iphone {
                                             height: 100px;
                                             width: 100px;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         #h1-corona {
                                             margin-top: 10rem;
@@ -972,11 +999,37 @@
                                             height: 4rem;
                                             margin-left: -5rem;
                                         }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
                                     }
                                     
                                     //desktop and laptop
                                     @media screen and (max-width: 1280px) {
                                         .btn-primary {
+                                            display: none;
+                                        }
+                                        .row {
+                                            display: none;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        #h2-3_0 {
                                             display: none;
                                         }
                                     }
@@ -1041,6 +1094,22 @@
                                             height: 13rem;
                                             margin-right: -12px;
                                         }
+                                        .row {
+                                            display: none;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
                                         .card5 {
                                             margin: 0;
                                             padding: 1.7rem 1.2rem;
@@ -1063,9 +1132,25 @@
                                             width: 11rem;
                                             height: 11rem;
                                         }
+                                        .row {
+                                            display: none;
+                                        }
                                         #laptop {
                                             width: 16rem;
                                             height: 16rem;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
                                         }
                                     }
                                     
@@ -1077,6 +1162,9 @@
                                         .pages-home {
                                             color: rgba(0, 0, 0, 0.19);
                                             max-width: 97%;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         .glitch2 {
                                             position: relative;
@@ -1145,12 +1233,28 @@
                                             height: 13rem;
                                             margin-right: -65px;
                                         }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
                                     }
                                     
                                     //device phone
                                     @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) and (min-device-width: 320px) {
                                         .shivflex-pros {
                                             margin-left: 14px;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         .glitch2 {
                                             position: relative;
@@ -1169,12 +1273,28 @@
                                         #h2-3_0 {
                                             margin-top: -22rem !important;
                                         }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
                                     }
                                     
                                     //phone 8+
                                     @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
                                         body {
                                             max-width: 26rem;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         .glitch2 {
                                             position: relative;
@@ -1198,12 +1318,28 @@
                                             max-width: 104.333333%;
                                             margin-left: 1rem;
                                         }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
                                     }
                                     
                                     //Iphone XR
                                     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
                                         body {
                                             max-width: 25.5rem;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         #icons-io {
                                             margin-left: 5rem;
@@ -1232,10 +1368,23 @@
                                             margin-top: 1rem;
                                             margin-right: 24px;
                                         }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
                                         .col-lg-4 {
                                             flex: 1 0 33.3333333333%;
                                             max-width: 104.333333%;
                                             margin-left: 1rem;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
                                         }
                                     }
                                     
@@ -1243,6 +1392,9 @@
                                         #banner-landing {
                                             margin-bottom: 8rem;
                                             margin-right: 0rem;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         .container-icon {
                                             display: flex;
@@ -1271,12 +1423,28 @@
                                         .about-cont {
                                             margin-left: 17px;
                                         }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
                                     }
                                     
                                     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
                                         #iphone {
                                             width: 10rem;
                                             height: 10rem;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                         #laptop {
                                             width: 16rem;
@@ -1321,6 +1489,19 @@
                                         .indicator {
                                             display: none;
                                         }
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
                                     }
                                     
                                     @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) {
@@ -1332,6 +1513,16 @@
                                             float: right;
                                             margin-right: 2rem;
                                         }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
                                         #h2-3_0 {
                                             text-align: center;
                                             font-family: "Quicksand", sans-serif;
@@ -1339,21 +1530,20 @@
                                             margin-bottom: 6rem;
                                             margin-top: -16rem;
                                         }
-                                        .p-anima {
-                                            flex: 1;
-                                            line-height: .75;
-                                            color: #1af0dc;
-                                            text-align: center;
-                                            transform: scaleX(var(--scale, 1));
-                                            -webkit-animation: glitch-p 11s linear 0.1s infinite alternate;
-                                            animation: glitch-p 11s linear 0.1s infinite alternate;
-                                            margin-top: 18rem;
+                                        #h2-3_0 {
+                                            display: none;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                     }
                                     
                                     @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
                                         .container {
                                             margin-right: 5rem;
+                                        }
+                                        #h2-3_0 {
+                                            display: none;
                                         }
                                         .nav.global div.main_list {
                                             height: 65px;
@@ -1376,5 +1566,18 @@
                                             -webkit-animation: glitch-p 11s linear 0.1s infinite alternate;
                                             animation: glitch-p 11s linear 0.1s infinite alternate;
                                             margin-top: 18rem;
+                                        }
+                                        .nav.global {
+                                            width: 100%;
+                                            position: relative;
+                                            line-height: 65px;
+                                            text-align: center;
+                                            z-index: 99999;
+                                            margin-bottom: 7%;
+                                            top: 0;
+                                            transition: all 0.4s ease;
+                                        }
+                                        .row {
+                                            display: none;
                                         }
                                     }
