@@ -37,7 +37,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'pg_search', '~> 2.3.0'
 gem 'uglifier', '~> 4.2'
 gem 'devise'
-
+gem 'libv8-node', '~> 15.14', '>= 15.14.0.1'
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'

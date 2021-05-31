@@ -358,6 +358,7 @@ DEPENDENCIES
   font-awesome-sass
   jbuilder (~> 2.7)
   jquery-rails
+  libv8-node (~> 15.14, >= 15.14.0.1)
   listen (~> 3.2)
   mini_racer
   omniauth-github
