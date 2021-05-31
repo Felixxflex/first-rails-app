@@ -1,162 +1,32 @@
-body {
-    margin-bottom: 60px;
+.container-fluid {
+    overflow: hidden;
+    margin-top: 250px;
+    background: #262626;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
 }
 
-.icon-sm {
-    vertical-align: middle;
-    border-style: none;
-    width: 3rem;
-    margin-bottom: 2rem;
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
 }
 
-.footer {
-    position: unset;
-    bottom: 0px;
-    width: 100%;
-    background-color: #293241;
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 31px;
-    clear: both;
+.bold-text {
+    color: #989c9e !important
 }
 
-.smedia {
-    display: inline-block;
-    float: right;
-    padding-right: 2%;
-    margin-top: 5rem;
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
 }
 
-.footer small {
-    color: #07689f;
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
 }
 
-.h4-fo {
-    color: whitesmoke;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+.social {
+    font-size: 21px !important
 }
 
-#loco-form {
-    margin-top: 2rem;
-    margin-left: 2rem;
-}
-
-#start-btn {
-    width: 248px;
-}
-
-.acunt {
-    color: whitesmoke;
-}
-
-.icons-social {
-    display: flex;
-    justify-content: space-around;
-    width: 10rem;
-    align-items: center;
-    margin-top: 3rem;
-    margin-left: 3rem;
-}
-
-#social-icons {
-    color: whitesmoke;
-}
-
-.cntct {
-    margin-left: -350px;
-    margin-top: 80px;
-}
-
-.lanza {
-    color: whitesmoke;
-    width: 30rem;
-    line-height: 1rem;
-    margin-top: 6rem;
-}
-
-.lanzo {
-    color: whitesmoke;
-    line-height: 1rem;
-    margin-top: 6rem;
-}
-
-a {
-    color: whitesmoke;
-}
-
-.footer small {
-    color: whitesmoke;
-    margin-left: 2rem;
-}
-
-@media only screen and (max-width: 480px) {
-    #loco-form {
-        margin-top: 2rem;
-        margin-left: 2rem;
-        display: none;
-    }
-    .h4-fo {
-        display: none;
-    }
-    #start-btn {
-        display: none;
-    }
-    .icons-social {
-        display: flex;
-        justify-content: space-around;
-        width: 10rem;
-        /* align-items: center; */
-        margin-top: 3rem;
-        margin-left: 3rem;
-    }
-    .lanzo {
-        color: whitesmoke;
-        line-height: 1rem;
-        margin-top: 6rem;
-        display: none;
-    }
-    .lanza {
-        color: whitesmoke;
-        width: 30rem;
-        line-height: 1rem;
-        margin-top: 6rem;
-        display: none;
-    }
-    .cntct {
-        margin-left: -350px;
-        margin-top: 80px;
-        margin-right: 4.5rem;
-    }
-    .footer {
-        background-color: black;
-    }
-    .text-muted {
-        color: black !important;
-    }
-    .icon-sm {
-        width: 5rem;
-        margin-bottom: 6rem;
-    }
-    .rights {
-        display: none;
-    }
-    .get-in-touch .title {
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-size: 3.2em;
-        line-height: 48px;
-        padding-bottom: 48px;
-        color: #5543ca;
-        background: #5543ca;
-        background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
-        background: -webkit-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
-        background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
-        -webkit-background-clip: text !important;
-        -webkit-text-fill-color: transparent !important;
-        margin-top: -1rem !important;
-        font-family: "Quicksand", sans-serif;
-    }
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
 }
