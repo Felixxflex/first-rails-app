@@ -12,7 +12,7 @@ $button-width: 35px;
     p {
         font-size: 20px;
     }
-    a {
+    .navclass {
         display: inline-block;
         position: relative;
         text-align: center;
@@ -38,12 +38,6 @@ $button-width: 35px;
             width: 100%;
         }
     }
-}
-
-h1 {
-    position: relative;
-    text-align: center;
-    font-family: 'Varela Round', serif;
 }
 
 .button_container {
@@ -104,7 +98,7 @@ h1 {
         opacity: .9;
         visibility: visible;
         height: 100%;
-        li {
+        .liclass {
             animation: fadeInRight .5s ease forwards;
             animation-delay: .35s;
             &:nth-of-type(2) {
@@ -135,14 +129,14 @@ h1 {
         display: inline-block;
         position: relative;
         height: 100%;
-        li {
+        .liclass {
             display: block;
             height: 25%;
             height: calc(100% / 4);
             min-height: 50px;
             position: relative;
             opacity: 0;
-            a {
+            .navclass {
                 display: block;
                 position: relative;
                 color: $color-link;
