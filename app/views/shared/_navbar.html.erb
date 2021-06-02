@@ -12,20 +12,32 @@
 				<li><a href="/path/testimonials/page", remote: true><button id="start-btn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Testimonials</button></a></li>
 			</ul>
 			<span class="navTrigger">
-<nav class="loco">
-<div class="widget">
-  <div class="menu">
-    <div class="toggle"><i></i><i></i></div>
-    <ul class="list">
-      <li><a href="/path/testimonials/page"><h2 class="h1nav">Testimonial</h2></a></li>
-      <li><a href="/path/contact/page"><h2 class="h2nav">Contact</h2></a></li>
-      <li><a href="/path/about_development/page"><h2 class="h3nav">About</h2></a></li>
-      <li><a href="/"><h2 class="h4nav">Home</h2></a></li>
-      <li></li>
-      <li></li>
+			
+		<div class="container12">
+      <!-- Everything below this is part of the menu-->
+    </div>
+    <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+			<li><a href="/">Home</a></li>
+          	<li><a href="/path/about_development/page">About</a></li>
+          	<li><a href="/path/social-media-management/page">Benefits</a></li>
+          	<li><a href="/path/contact/page">Contact</a></li>
+          	<li><a href="/path/testimonials/page">Testimonials</a></li>
+        </ul>
+      </nav>
+    </div>
     </ul>
   </div>
 </nav>
+<script>
+$('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+  });
+</script>
+
 
 <script>
 let widget = document.querySelector('.widget')
@@ -34,6 +46,8 @@ let toggle = document.querySelector('.toggle')
 toggle.addEventListener('click', () => {
   widget.classList.toggle('active')
 })
+
+
 </script>
 
 </span>
