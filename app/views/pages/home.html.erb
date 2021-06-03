@@ -3,7 +3,8 @@
   <div class="banner-container">
     <div class="banner-container-left">
       <h1 class="h1-banner"><img class="h1-banner"src="https://res.cloudinary.com/dn6wh4u2h/image/upload/v1601228575/8CF832A5-CA57-4554-B1FF-96D24DEBEE12_a1bn0h.png" alt="Social Media Management Agency"></h1>
-      <p class="young">Young. Dynamic. Effective.</p>
+      <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+
 
     </div>
     <div class="banner-container-right">
@@ -13,6 +14,7 @@
     </div>
   </div>
 </div>
+
 
 <div class="mymodalcss">
 <div class="modal fade" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -33,6 +35,29 @@ $(window).on('load', function(){
     }, 3000);
 });
 </script>
+
+<script>
+$(document).ready(function () {
+  // typing animation
+  (function ($) {
+    $.fn.writeText = function (content) {
+      var contentArray = content.split(""),
+        current = 0,
+        elem = this;
+      setInterval(function () {
+        if (current < contentArray.length) {
+          elem.text(elem.text() + contentArray[current++]);
+        }
+      }, 80);
+    };
+  })(jQuery);
+
+  // input text for typing animation
+  $("#holder").writeText("Young. Dynamic. Professionnal.");
+});
+
+</script>
+
 
 <div id="screen"></div>
 <div id="modal">  

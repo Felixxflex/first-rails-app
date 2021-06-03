@@ -1778,3 +1778,15 @@
                                             display: none;
                                         }
                                     }
+                                    
+                                    .blinking-cursor {
+                                        font-weight: 500;
+                                        margin-left: 4px;
+                                        font-size: 20px;
+                                        color: white !important;
+                                        -webkit-animation: 1s blink step-end infinite;
+                                        -moz-animation: 1s blink step-end infinite;
+                                        -ms-animation: 1s blink step-end infinite;
+                                        -o-animation: 1s blink step-end infinite;
+                                        animation: 1s blink step-end infinite;
+                                    }
